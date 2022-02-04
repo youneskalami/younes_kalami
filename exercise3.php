@@ -1,55 +1,54 @@
 <?php
 
-# SWITCH
-$a = 4;
-switch ($a) {
-    case '0':
-        echo ("the number is 0.");
-        break;
-    case '1':
-        echo ("the number is 1.");
-        break; 
-    case '2':
-        echo ("the number is 2.");
-        break;     
-    case '3':
-        echo ("the number is 3.");
-        break;      
-
-    default:
-        echo ("the number is not in range.");
-        break;
+#TASK 1
+echo "TASK 1 <br>";
+$a = date("F");
+if ($a == "August") {
+    echo "<br>"."so it's still holiday.";
+} else {
+    echo "<br>"."This is $a so i don't have any holidays. <br>";
 }
 
-#WHILE-
-
-$b = 0;
-
-while ($b <= 10) {
-    echo "<br>". "the number is ".$b;
-    $b++;
+#TASK 2
+echo "<br>"."TASK 2 <br>";
+$color = "red";
+if ($color == "red") {
+    echo "<br>"."The color is red.<br>";
+} else {
+   echo "<br>"." The color is not red. <br>";
 }
 
-# DO-WHILE
-$c=0;
-do {
-    echo "<br>". "the number is ".$c;
-    $c++;
-    
-} 
-while ($c <= 10);
+#TASK 3
+echo "<br>"."TASK 3 <br>";
+$student_grade = 30;
+if ($student_grade > 80) {
 
-#FOR LOOP
-for ($i=0; $i <7 ; $i++) { 
-    echo "<br>"."the number is $i <br />";
+  echo "<br>"."Excellent";
+}
+elseif ($student_grade >70 && $student_grade<80) {
+    echo "<br>"."Great";
+}
+elseif ($student_grade >60 && $student_grade<70) {
+    echo "<br>"."Good";
+}
+elseif ($student_grade >50 && $student_grade<60) {
+    echo "<br>"."Pass";
+}
+elseif ($student_grade <50) {
+    echo "<br>"."Fail";
 }
 
-# FOREACH LOOP
-$x = array(3,5,8,2,12,62,98,32,12);
-foreach ($x as $key => $value) {
-    echo "<br>". $value;
-}
-#github test
+#TASK 4
+echo "<br>"."TASK 4 <br>";
+$name = readline('Enter your name :');
+echo $name;
+
+
+
+ 
+
+
+
 
 
 ?>
