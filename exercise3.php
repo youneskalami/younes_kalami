@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 
 #TASK 1
@@ -39,9 +41,55 @@ elseif ($student_grade <50) {
 }
 
 #TASK 4
-echo "<br>"."TASK 4 <br>";
-$name = readline('Enter your name :');
-echo $name;
+echo "<br>"."<br>"."TASK 4 <br> <br>";
+echo "Enter your Name and Age to check the eligiblity: <br>";
+?>
+
+  <form action="exercise3.php" method="get">
+   Name: <input type="text" name="name"><br>
+   Age:   <input type="number" name="age"><br>
+         <input type="submit">
+   </form>
+
+   <?php
+   $name = $_GET["name"];
+   $age = $_GET["age"];
+   if ($age >= 18) {
+      echo "you are eligible for voting.";
+   }
+   else {
+    echo "you are NOT eligible for voting.";
+   } 
+
+#TASK 5
+echo "<br>"."<br>"."TASK 5 <br> <br>";
+
+for ($i=8; $i >=1 ; $i--) { 
+
+    for ($j=1; $j <= $i ; $j++) { 
+        echo $j;
+        
+    }
+    echo "<br>";
+}
+
+#TASK 6
+echo "<br>"."TASK 6 <br> <br>";
+
+for ($i=1; $i <= 8 ; $i++) { 
+
+    for ($j=1; $j <= $i ; $j++) { 
+
+        echo "*";
+        
+    }
+    echo "<br>";
+}
+
+   ?>
+   
+ </body>
+</html>
 
 
 
@@ -51,4 +99,3 @@ echo $name;
 
 
 
-?>
