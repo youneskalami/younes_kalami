@@ -21,7 +21,7 @@ switch ($a) {
         break;
 }
 
-#WHILE 
+#WHILE-
 
 $b = 0;
 
@@ -49,6 +49,7 @@ $x = array(3,5,8,2,12,62,98,32,12);
 foreach ($x as $key => $value) {
     echo "<br>". $value;
 }
+#github test
 
 
 ?>
