@@ -9,8 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Recipes</title>
 </head>
+
 <body>
-    <script src="script.js"></script>
     <div>
         <header>
             <div class="container-fluid c_header">
@@ -18,29 +18,29 @@
                     <div class="col-xl-4 border-show">
                     <br>
                     <br>
-                    
                     <input type="button" class="btn" style="color: white; font-family: 'Patrick Hand', cursive;
-                    font-size: 20px !important; " onclick="location.href='index.html';" value="ABOUT US" />
+                    font-size: 20px !important; " onclick="location.href='index.php';" value="ABOUT US" />
                     <input type="button" class="btn" style="color: white; font-family: 'Patrick Hand', cursive;
-                    font-size: 20px !important; " onclick="location.href='recipes.html';" value="RECIPES" />
+                    font-size: 20px !important; " onclick="location.href='recipes.php';" value="RECIPES" />
                     <input type="button" class="btn" style="color: white; font-family: 'Patrick Hand', cursive;
-                    font-size: 20px !important; " onclick="location.href='contact.html';" value="CONTACT" />
+                    font-size: 20px !important; " onclick="location.href='contact.php';" value="CONTACT" />
                     </div>
                     <div class="col-xl-4 border-show">
-                        <a href="index.html">
-                            <img src="PICTURES/recipe.jpg" class="img-fluid" alt="logo" width= 150 ></a>
+                      <a href="index.html">
+                      <img src="PICTURES/recipe.jpg" class="img-fluid" alt="logo" width= 150 ></a>
                     </div>
                     <div class="col-xl-3 border-show">
-                      <form class="form-inline my-2 my-lg-0"> </form>
+                      <form class="form-inline my-2 my-lg-0"></form>
                           <br>
                           <br>
-                    <input class="form-control mr-sm-2"  placeholder="Search" aria-label="Search" type = "text" id = "searchBar" oninput = "Search((this.value).toLowerCase())">
-                </div>
-                    <div class="col-xl-1 border-show">
+                           <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type = "text" id = "searchBar" oninput = "Search((this.value).toLowerCase())">
+                    </div>
+                
+                        <div class="col-xl-1 border-show">
                         <br>
                         <br>
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                  
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                       
                    
                     </div>
                 </div>    
@@ -48,18 +48,4 @@
         </header>
     </div>
 
-    <div class="container-fluid" style="background-color: #FFF0E3;"><div class="title"><br>CONTACT US</div></div>
-    <div class="container-fluid" style="background-color: #FFF0E3;">
-        <div class="p2">Tel: +358 446584125<br>
-        Email: info@recipe.com<br></div>
-    </div>
-
-    <footer class="footer">
-        <div class="container-fluid">
-            <span class="text-white">&copy;Recipe.com 2022</span>
-        </div>
-    </footer>
-    
-</body>
-
-</html>
+  <div class="container-fluid" style="background-color: #FFF0E3;">
