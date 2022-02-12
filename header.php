@@ -19,11 +19,11 @@
                     <br>
                     <br>
                     <input type="button" class="btn" style="color: white; font-family: 'Patrick Hand', cursive;
-                    font-size: 20px !important; " onclick="location.href='index.php';" value="ABOUT US" />
+                    font-size: 20px !important; " onclick="location.href='index.html';" value="ABOUT US" />
                     <input type="button" class="btn" style="color: white; font-family: 'Patrick Hand', cursive;
-                    font-size: 20px !important; " onclick="location.href='recipes.php';" value="RECIPES" />
+                    font-size: 20px !important; " onclick="location.href='recipes.html';" value="RECIPES" />
                     <input type="button" class="btn" style="color: white; font-family: 'Patrick Hand', cursive;
-                    font-size: 20px !important; " onclick="location.href='contact.php';" value="CONTACT" />
+                    font-size: 20px !important; " onclick="location.href='contact.html';" value="CONTACT" />
                     </div>
                     <div class="col-xl-4 border-show">
                       <a href="index.html">
